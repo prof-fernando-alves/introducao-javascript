@@ -12,7 +12,7 @@
 
 		<header>
 			<div class="container">
-				<h1 class="titulo">Aparecida Nutrição</h1>
+				<h1>Aparecida Nutrição</h1>
 			</div>
 		</header>
 		<main>
@@ -29,7 +29,7 @@
 						</tr>
 					</thead>
 					<tbody id="tabela-pacientes">
-						<tr class="paciente" id="primeiro-paciente">
+						<tr class="paciente" >
 							<td class="info-nome">Paulo</td>
 							<td class="info-peso">100</td>
 							<td class="info-altura">2.00</td>
@@ -37,7 +37,7 @@
 							<td class="info-imc">0</td>
 						</tr>
 
-						<tr class="paciente" id="segundo-paciente" >
+						<tr class="paciente" >
 							<td class="info-nome">João</td>
 							<td class="info-peso">80</td>
 							<td class="info-altura">1.72</td>
@@ -73,24 +73,8 @@
 			</section>
 		</main>
 		<script>
-			var titulo = document.querySelector(".titulo");
-			titulo.textContent = "Aparecida Nutricionista do IFPR";
-
-			var paciente = document.querySelector("#segundo-paciente")
-			console.log(paciente)
-
-			var tdpeso = paciente.querySelector(".info-peso")
-			var peso = tdpeso.textContent
-
-			var tdAltura = paciente.querySelector(".info-altura");
-			var altura = tdAltura.textContent;	
-
-			var imc = peso / (altura * altura)
-			console.log(imc)
-			
-			let tdimc = paciente.querySelector(".info-imc")
-				tdimc.textContent = imc.toFixed(2)
-			const pi = 3.1415
+			var nomer = prompt("Qual é o seu nome?")
+			alert("Ola ")
 		</script>
 	</body>
 </html>
