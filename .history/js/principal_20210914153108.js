@@ -60,20 +60,6 @@ for (var i=0; i < pacientes.length; i++){
             var alturaTd = document.createElement("td");
             var gorduraTd = document.createElement("td");
             var imcTd = document.createElement("td");
-
-            nomeTd.textContent = nome;
-            pesoTd.textContent = peso;
-            alturaTd.textContent = altura;
-            gorduraTd.textContent = gordura;
-
-            pacienteTr.appendChild(nomeTd);
-            pacienteTr.appendChild(pesoTd);
-            pacienteTr.appendChild(alturaTd);
-            pacienteTr.appendChild(gorduraTd);
-
-            var tabela = document.querySelector("#tabela-pacientes");
-
-            tabela.appendChild(pacienteTr);
         })
         
 
