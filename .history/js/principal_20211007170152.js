@@ -5,7 +5,6 @@
 
             var paciente = obtemPacienteDoFormulario(form)
             var pacienteTr = montaTr(paciente)
-            
             var tabela = document.querySelector("#tabela-pacientes");
 
             tabela.appendChild(pacienteTr);

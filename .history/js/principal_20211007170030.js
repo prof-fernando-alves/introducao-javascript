@@ -3,9 +3,6 @@
             event.preventDefault()    
             var form = document.querySelector("#form-adiciona")      
 
-            var paciente = obtemPacienteDoFormulario(form)
-            var pacienteTr = montaTr(paciente)
-            
             var tabela = document.querySelector("#tabela-pacientes");
 
             tabela.appendChild(pacienteTr);
@@ -43,3 +40,9 @@
 
         return td
     }
+            
+
+
+    
+
+
