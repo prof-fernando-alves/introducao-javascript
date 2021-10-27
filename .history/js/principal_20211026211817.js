@@ -77,13 +77,11 @@
             erros.push("O campo altura não pode estar em branco")
         }
 
-        if (!validaPeso(paciente.peso)){
+        if (validaPeso(paciente.peso)){
             erros.push("Peso é inválido")
         }
 
-        if (!validaAltura(paciente.altura)){
-            erros.push("Altura é inválida")
-        }
+        if (validaAltura(paciente))
 
         return erros
     }

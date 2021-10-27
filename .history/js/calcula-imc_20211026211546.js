@@ -48,14 +48,14 @@ function calculaImc (peso,altura){
         if (peso >= 0 && peso <=300){
             return true
         }else {
-            return false
+            return 
         }
     }
 
     function validaAltura(altura){
         if ( altura >= 0 && altura <= 3.00){
-            return true
+
         }else {
-            return false
+
         }
     }
